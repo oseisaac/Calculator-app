@@ -67,7 +67,7 @@ for(let i=0; i < operator.length; i++){
     })
 }
 
-// getting the numbers when they are clicked
+// getting the numbers  when they are clicked
 const numbers = document.getElementsByClassName("number");
 for(let i=0; i < numbers.length; i++){
     numbers[i].addEventListener('click',function(){
